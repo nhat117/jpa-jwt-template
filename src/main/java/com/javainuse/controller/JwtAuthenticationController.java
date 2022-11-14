@@ -1,7 +1,5 @@
 package com.javainuse.controller;
 
-import java.util.Objects;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -18,9 +16,9 @@ import com.javainuse.service.JwtUserDetailsService;
 
 
 import com.javainuse.config.JwtTokenUtil;
-import com.javainuse.model.JwtRequest;
-import com.javainuse.model.JwtResponse;
-import com.javainuse.model.UserDTO;
+import com.javainuse.model.Security.JwtRequest;
+import com.javainuse.model.Security.JwtResponse;
+import com.javainuse.model.Security.UserDTO;
 
 @RestController
 @CrossOrigin
